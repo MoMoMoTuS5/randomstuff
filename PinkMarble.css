@@ -210,19 +210,20 @@ div:has(>#bm-2),
 }
 
 #bm-n button {
-    background-color: #144eb9;
+    background-color: #b91461;
     border-radius: 1em;
-    padding: 0 .75ch
+    padding: 0 .75ch;
+    transition: 5ms;
 }
 
 #bm-n button:hover,
 #bm-n button:focus-visible {
-    background-color: #1061e5
+    background-color: #c9397c
 }
 
 #bm-n button:active,
 #bm-n button:disabled {
-    background-color: #2e97ff
+    background-color: #c9397c
 }
 
 #bm-n button:disabled {
